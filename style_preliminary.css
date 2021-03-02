@@ -1,0 +1,78 @@
+#container_preliminary{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.container_title{
+    padding: 1px;
+    margin-top: 75px;
+    width: 25%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 20px rgba(25, 25, 25, 0.3);
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+
+h1 {
+    text-align: center;
+    display: inline-block;
+    border-bottom: 2px solid #061826;
+    padding: 5px;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.team_name{
+    margin-left: 5%;
+}
+
+.match{
+    display: inline-block;
+    margin: 5% 5% 0 5%;
+    width: 20%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.team{
+    text-align: left;
+    float: left;
+    width: 65%;
+}
+
+.score{
+    text-align: center;
+    float: left;
+    width: 33%;
+}
+
+.score, .team{
+    background-color: ghostwhite;
+    border: 1px solid #061826;
+    height: 70px;
+}
+
+.winscore{
+    background-color: #53DD6C;
+}
+
+.card {
+    text-align: center;
+    padding: 20px 3%;
+    margin: 75px auto 75px auto;
+    width: 80%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 20px rgba(25, 25, 25, 0.3);
+}
+table{
+    margin:0 10%;
+}

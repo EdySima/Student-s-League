@@ -1,0 +1,82 @@
+p{
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.image_card{
+    margin-top: 20px;
+    width: 85%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 20px rgba(25, 25, 25, 0.3);
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.card {
+    padding: 50px;
+    margin-top: 20px;
+    width: 85%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 20px rgba(25, 25, 25, 0.3);
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.login_logo{
+    padding: 50px;
+    max-width: 100%;
+    height: auto;
+}
+
+.row {
+    margin-top: 80px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left_column {
+    float: left;
+    width: 35%;
+}
+
+.right_column {
+    float: left;
+    width: 65%;
+}
+
+@media only screen and (max-width: 800px){
+
+    h1{
+        text-align: center;
+        padding-left: 30px;
+    }
+
+    p{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .image_card {
+        width: 90%;
+    }
+
+    .card {
+        padding-left: 0;
+        padding-right: 0;
+        width: 90%;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+
+    .left_column, .right_column {
+        width: 100%;
+    }
+}

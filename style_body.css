@@ -1,0 +1,27 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-image: url("images/background.jpg");
+    background-size: 100% auto;
+    margin: 0px;
+    color: #061826;
+}
+
+button {
+    transition-duration: 0.4s;
+    border-radius: 100px;
+    background-color: #FFF;
+    border: 2px solid #FF6B35;
+    color: #061826;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 14px 20px;
+    margin: 8px 10px;
+    cursor: pointer;
+    width:150px;
+}
+
+button:hover {
+    background-color: #FF6B35;
+    color: #FFF;
+}

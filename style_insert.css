@@ -1,0 +1,91 @@
+
+/* ------------------ CLASSES -------------------------- */
+
+.container_title{
+    padding: 1px;
+    margin: 75px auto 0 auto;
+    width: 450px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 20px rgba(25, 25, 25, 0.3);
+}
+
+.input_card{
+    padding: 20px 3%;
+    margin: 75px auto 0 auto;
+    width: 80%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 20px rgba(25, 25, 25, 0.3);
+    overflow: hidden;
+}
+
+.card {
+    text-align: center;
+    padding: 20px 3%;
+    margin: 75px auto 75px auto;
+    width: 80%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 20px rgba(25, 25, 25, 0.3);
+}
+
+.column{
+    float:left;
+    width: 20%;
+}
+
+.insert{
+    float:left;
+    width: 100%;
+}
+
+
+/* ------------------ STANDARD ELEMENTS -------------------------- */
+
+h1 {
+    text-align: center;
+    display: inline-block;
+    border-bottom: 2px solid #061826;
+    padding-bottom: 5px;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+input{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 15px 0 25px 0;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #061826;
+    box-sizing: border-box;
+}
+
+selct{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 15px 0 25px 0;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #061826;
+    box-sizing: border-box;
+}
+
+/* ------------------ MOBILE -------------------------- */
+
+@media only screen and (max-width: 800px){
+    .column {
+        width: 90%;
+    }
+}
